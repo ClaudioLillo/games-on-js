@@ -57,3 +57,26 @@ Luego, tenemos un enlace o hipervínculo, que nos permite saltar hacía otra web
 
 En la última versión de html, existen muchísimas etiquetas, sin embargo, con la finalidad de escribir juegos nos centraremos solo en unas pocas. La que más utilizaremos se llama div, y corresponde a un contenedor. Dicho de otra forma, es tan solo un área rectangular. Mediante el uso de algunos estilos, conseguiremos que este contenedor adquiera propiedades específicas tales como tamaños, formas, colores, bordes, animaciones, etc.
 
+Dado que un contenedor div por si solo, no contiene información alguna, agregar estos elementos dentro del cuerpo del documento no generará ningún efecto.
+
+Para poder visualizar los contenedores, tendremos que agregar estilos. Sin embargo, antes de descrubrir como hacer esto, necesitaremos otorgarles una clase a estos div
+
+En HTML se utiliza la palabra reservada "class" para señalar la clase de un elemento. Esto se incluye dentro de la etiqueta de apertura, tal como se muestra en la siguiente porción de código
+
+```html
+<div class="clase1"></div>
+<div class="clase2"></div>
+<div class="clase2"></div>
+```
+
+Al asignar un estilo a una clase, todos los elementos que compartan la misma clase adoptarán el mismo aspecto.
+
+Por otra parte, también existen identificadores, que se aplican a tan solo un elemento en todo el documento. Estos se aplican con la palabra "id"
+
+```html
+<div id="id1"></div>
+<div id="id2"></div>
+<div id="id3"></div>
+```
+
+Dicho esto, es importante notar lo siguiente. Cuando se desea reutilizar un elemento, se deben usar clases, mientras que al individualizar un elemento, se debe utilizar un id. Jamás se debe repetir un id.
